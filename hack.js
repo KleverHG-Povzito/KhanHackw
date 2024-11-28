@@ -398,7 +398,7 @@ function setupMain(){
 }
  
 /* Inject */
-if (!/^https?:\/\/pt\.khanacademy\.org/.test(window.location.href)) { alert("❌ Khanware Failed to Injected!\n\nVocê precisa executar o Khanware no site do Khan Academy! (https://es.khanacademy.org/)"); window.location.href = "https://es.khanacademy.org/";};
+if (!/^https?:\/\/es\.khanacademy\.org/.test(window.location.href)) { alert("❌ Khanware Failed to Injected!\n\nVocê precisa executar o Khanware no site do Khan Academy! (https://es.khanacademy.org/)"); window.location.href = "https://es.khanacademy.org/";};
  
 showSplashScreen();
  
